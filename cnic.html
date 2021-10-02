@@ -147,7 +147,7 @@ function gender(cnic)
     Gender.innerHTML = "Gender: ";
     var num13 = cnic.charAt(12);
     if(num13 == 1 || num13 == 3 || num13 == 5 || num13 == 7 || num13 == 9)  Gender.innerHTML += "Male";
-    else if(num13 == 2 || num13 == 4 || num13 == 6 || num13 == 8)           Gender.innerHTML += "Female";
+    else if(num13 == 0 || num13 == 2 || num13 == 4 || num13 == 6 || num13 == 8)           Gender.innerHTML += "Female";
     else 
     {
         Gender.innerHTML = ""
